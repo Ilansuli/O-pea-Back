@@ -1,12 +1,12 @@
 {
   "name": "o-pea-back",
   "version": "1.0.0",
-    "scripts": {
-      "start": "node server.js",
-      "startmon": "nodemon server.js",
-      "server:dev": "nodemon server.js",
-      "server:prod": "set NODE_ENV=production&&node server.js",
-      "server:prod:mac": "export NODE_ENV=production&&node server.js"
+  "scripts": {
+    "start": "node server.js",
+    "startmon": "nodemon server.js",
+    "server:dev": "nodemon server.js",
+    "server:prod": "set NODE_ENV=production&&node server.js",
+    "server:prod:mac": "export NODE_ENV=production&&node server.js"
   },
   "license": "ISC",
   "dependencies": {
@@ -18,5 +18,5 @@
     "express": "^4.17.1",
     "mongodb": "^3.2.7",
     "socket.io": "^4.2.0"
-}
+  }
 }
